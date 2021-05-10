@@ -35,8 +35,25 @@ public class Operators {
         System.out.println("x % y: " + (x/y)); // %=
     }
 
+    static void comparisonOps() {
+        int age = 26;
+
+        System.out.println("age: " + age);
+        System.out.println("age > 26: " + (age > 26));
+        System.out.println("age >= 26: " + (age >= 26));
+        System.out.println("age < 26: " + (age < 26));
+        System.out.println("age <= 26: " + (age <= 26));
+        System.out.println("age == 26: " + (age == 26));
+        System.out.println("age != 26: " + (age != 26));
+    }
+
+    static void logicalOps() {
+        
+    }
+
     void compute() {
         arithmeticOps();
+        comparisonOps();
     }
 
     public static void main(String[] args) {
