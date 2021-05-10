@@ -11,6 +11,10 @@
 * [Java Platform](intro/platform)
 * [Criticism](intro/criticism)
 
+## Basics
+
+* [Data Types](basics/data-types)
+
 ## JVM: Java Virtual Machine
 
 * [JVM Overview](jvm/overview)
