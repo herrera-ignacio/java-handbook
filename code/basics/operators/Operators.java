@@ -68,11 +68,19 @@ public class Operators {
         System.out.println("~x (NOT) :" + Integer.toBinaryString(~x));
     }
 
+    static void bitshiftOps() {
+        System.out.println("x: " + Integer.toBinaryString(0b1010_0110));
+        System.out.println("x << 1 (left-shift): " + Integer.toBinaryString(0b1010_0110 << 1));
+        System.out.println("x >>> 1 (unsigned right-shift): " + Integer.toBinaryString(0b1010_0110 >>> 1));
+        System.out.println("x >> 1 (signed right-shift): " + Integer.toBinaryString(0b1010_0110 >> 1));
+    }
+
     void compute() {
-        // arithmeticOps();
-        // comparisonOps();
-        // logicalOps();
+        arithmeticOps();
+        comparisonOps();
+        logicalOps();
         bitwiseOps();
+        bitshiftOps();
     }
 
     public static void main(String[] args) {
