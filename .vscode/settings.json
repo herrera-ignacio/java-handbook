@@ -4,6 +4,7 @@
         "code/basics/data-types/floats",
         "code/basics/data-types/char",
         "code/basics/data-types/casting",
-        "code/basics/data-types/array"
+        "code/basics/data-types/array",
+        "code/basics/methods/arguments"
     ]
 }
