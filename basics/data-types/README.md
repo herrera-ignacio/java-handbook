@@ -15,3 +15,5 @@ There are 8 primitive types:
       * `double`
     * Character
       * `char`
+
+[See code examples](../code/basics/data-types).

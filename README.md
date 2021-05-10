@@ -14,6 +14,10 @@
 ## Basics
 
 * [Data Types](basics/data-types)
+* [Methods](code/basics/methods)
+* [Operators](code/basics/operators)
+  * [Operator Precedence](basics/operators/precedence)
+  * [Operator Promotion](basics/operators/promotion)
 
 ## JVM: Java Virtual Machine
 
