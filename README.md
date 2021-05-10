@@ -3,7 +3,6 @@
 ## Introduction
 
 > Useful resources: [resources](resources/introduction)
-> https://www.youtube.com/watch?v=grEKMHGYyns
 
 * [Java Overview](intro/overview)
 * [Principles](intro/principles)
