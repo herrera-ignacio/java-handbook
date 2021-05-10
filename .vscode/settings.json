@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "code/basics/data-types/integers",
-        "code/basics/data-types/floats"
+        "code/basics/data-types/floats",
+        "code/basics/data-types/char"
     ]
 }
