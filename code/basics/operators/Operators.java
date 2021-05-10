@@ -48,12 +48,20 @@ public class Operators {
     }
 
     static void logicalOps() {
-        
+        boolean x = true;
+        boolean y = false;
+
+        System.out.println("x: " + x);
+        System.out.println("y: " + y);
+        System.out.println("x && y: " + (x && y));
+        System.out.println("x || y: " + (x || y));
+        System.out.println("!x: " + !x);
     }
 
     void compute() {
         arithmeticOps();
         comparisonOps();
+        logicalOps();
     }
 
     public static void main(String[] args) {
