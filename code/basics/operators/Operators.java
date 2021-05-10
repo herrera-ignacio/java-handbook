@@ -58,10 +58,21 @@ public class Operators {
         System.out.println("!x: " + !x);
     }
 
+    static void bitwiseOps() {
+        int x = 0b0010_0110;
+        int y = 0b1101_0110;
+
+        System.out.println("x & y (AND): " + Integer.toBinaryString(x & y));
+        System.out.println("x | y (OR): " + Integer.toBinaryString(x | y));
+        System.out.println("x ^ y (XOR): " + Integer.toBinaryString(x ^ y));
+        System.out.println("~x (NOT) :" + Integer.toBinaryString(~x));
+    }
+
     void compute() {
-        arithmeticOps();
-        comparisonOps();
-        logicalOps();
+        // arithmeticOps();
+        // comparisonOps();
+        // logicalOps();
+        bitwiseOps();
     }
 
     public static void main(String[] args) {
