@@ -36,6 +36,9 @@
 * [Method overriding](oop/method-overriding)
 * [`super` keyword](oop/super)
 * [Constructor chaining](oop/constructor-chaining)
+* [Preventing Inheritance](oop/preventing-inheritance)
+* [Private Constructor](oop/private-constructor)
+* [Abstract Class](oop/abstract-class)
 
 ## JVM: Java Virtual Machine
 
