@@ -27,6 +27,7 @@
 * [Control Flow](code/basics/control-flow)
 * [Java API](basics/java-api/packages)
 * [Strings](code/basics/strings)
+* [Packages](basics/packages)
 
 ## OOP
 
