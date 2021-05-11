@@ -41,6 +41,7 @@
 * [Abstract Class](oop/abstract-class)
 * [Interface](oop/interface)
 * [Mixins](oop/mixins)
+* [Default methods](oop/default-methods)
 
 ## JVM: Java Virtual Machine
 

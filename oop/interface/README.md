@@ -27,3 +27,23 @@ public class Violin extends Instrument implements StringInstrument {
     // ...
 }
 ```
+
+## Marker Interfaces
+
+Interfaces with __no methods__, that merely "_marks_" a class as having some property.
+
+```java
+class CloneableClass implements Cloneable {
+    public CloneableClass clone() {
+        try {
+            return (CloneableClass) super.clone();
+        } catch(CloneNotSupportedException e) {}
+
+        return null;
+    }
+}
+```
+
+## Static Methods
+
+In addition to default methods, you can define `static` methods in interfaces. This makes it easier for you to organize helper methods in your libraries; you can keep static methods specific to an interface in the same interface rather than in a separate class.
