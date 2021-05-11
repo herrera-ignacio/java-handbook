@@ -1,5 +1,11 @@
 # Java Handbook
 
+* Introduction
+* Basics
+* OOP
+* JVM
+* Java SE
+
 ## Introduction
 
 > Useful resources: [resources](resources/introduction)
@@ -21,6 +27,12 @@
 * [Control Flow](code/basics/control-flow)
 * [Java API](basics/java-api/packages)
 * [Strings](code/basics/strings)
+
+## OOP
+
+* [Inheritance](code/basics/oop)
+* [Access modifiers](oop/access-modifiers)
+* [Polymorphism](code/basics/polymorphism)
 
 ## JVM: Java Virtual Machine
 
