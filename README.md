@@ -35,6 +35,7 @@
 * [Polymorphism](code/basics/polymorphism)
 * [Method overriding](oop/method-overriding)
 * [`super` keyword](oop/super)
+* [Constructor chaining](oop/constructor-chaining)
 
 ## JVM: Java Virtual Machine
 

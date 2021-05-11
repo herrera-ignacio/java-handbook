@@ -15,3 +15,9 @@ Supertype define _contract_ & _common protocol_.
 1. Same parameters + compatible return types.
 
 2. Can't be less accessible.
+
+## What is Not Overridden?
+
+* `final` methods.
+* Fields (both instance and static).
+* `static` methods.
