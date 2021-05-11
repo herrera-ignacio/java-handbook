@@ -40,6 +40,7 @@
 * [Private Constructor](oop/private-constructor)
 * [Abstract Class](oop/abstract-class)
 * [Interface](oop/interface)
+* [Mixins](oop/mixins)
 
 ## JVM: Java Virtual Machine
 
