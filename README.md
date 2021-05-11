@@ -39,6 +39,7 @@
 * [Preventing Inheritance](oop/preventing-inheritance)
 * [Private Constructor](oop/private-constructor)
 * [Abstract Class](oop/abstract-class)
+* [Interface](oop/interface)
 
 ## JVM: Java Virtual Machine
 
