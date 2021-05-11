@@ -19,6 +19,7 @@
   * [Operator Precedence](basics/operators/precedence)
   * [Operator Promotion](basics/operators/promotion)
 * [Control Flow](code/basics/control-flow)
+* [Java API](basics/java-api/packages)
 
 ## JVM: Java Virtual Machine
 
