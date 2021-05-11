@@ -33,6 +33,8 @@
 * [Inheritance](code/basics/oop)
 * [Access modifiers](oop/access-modifiers)
 * [Polymorphism](code/basics/polymorphism)
+* [Method overriding](oop/method-overriding)
+* [`super` keyword](oop/super)
 
 ## JVM: Java Virtual Machine
 
