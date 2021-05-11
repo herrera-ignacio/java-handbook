@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "code/basics/operators",
         "code/basics/methods/varargs",
         "code/basics/methods/overloading",
         "code/basics/methods/arguments",
@@ -8,6 +9,6 @@
         "code/basics/data-types/char",
         "code/basics/data-types/casting",
         "code/basics/data-types/array",
-        "code/basics/operators"
+        "code/basics/control-flow"
     ]
 }
