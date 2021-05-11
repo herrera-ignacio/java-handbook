@@ -1,6 +1,11 @@
 # Interface
 
+Interfaces __form a contract between the class and the outside world__.
+
+> Implementing an interface allows a class to become more formal about the behavior it promises to provide. This "contract" is enforced at build time by the compiler. If your class claims to implement an interface, all methods defined by that interface must appear in its source code before the class will successfully compile.
+
 Interface allows to define non-instantiable __mostly only public abstract methods (no state)__, this way defines a __pure contract__.
+
 
 ```java
 interface InterfaceName {

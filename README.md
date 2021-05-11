@@ -30,6 +30,7 @@
 
 ## OOP
 
+* [Object](oop/object)
 * [Inheritance](code/basics/oop)
 * [Access modifiers](oop/access-modifiers)
 * [Polymorphism](code/basics/polymorphism)
