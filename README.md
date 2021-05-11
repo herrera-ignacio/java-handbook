@@ -20,6 +20,7 @@
   * [Operator Promotion](basics/operators/promotion)
 * [Control Flow](code/basics/control-flow)
 * [Java API](basics/java-api/packages)
+* [Strings](code/basics/strings)
 
 ## JVM: Java Virtual Machine
 

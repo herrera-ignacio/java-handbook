@@ -9,6 +9,7 @@
         "code/basics/data-types/char",
         "code/basics/data-types/casting",
         "code/basics/data-types/array",
-        "code/basics/control-flow"
+        "code/basics/control-flow",
+        "code/basics/strings"
     ]
 }
