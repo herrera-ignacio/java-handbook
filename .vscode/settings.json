@@ -7,6 +7,7 @@
         "code/basics/methods/overloading",
         "code/basics/methods/arguments",
         "code/basics/io/standard",
+        "code/basics/io/console",
         "code/basics/io/bytestreams",
         "code/basics/exceptions",
         "code/basics/data-types/integers",
@@ -15,6 +16,6 @@
         "code/basics/data-types/casting",
         "code/basics/data-types/array",
         "code/basics/control-flow",
-        "code/basics/io/console"
+        "code/basics/serialization"
     ]
 }
