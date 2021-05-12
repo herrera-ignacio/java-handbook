@@ -28,6 +28,7 @@
 * [Java API](basics/java-api/packages)
 * [Strings](code/basics/strings)
 * [Packages](basics/packages)
+* [Exceptions](basics/exceptions)
 
 ## OOP
 

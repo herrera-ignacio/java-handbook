@@ -1,15 +1,17 @@
 {
     "java.project.sourcePaths": [
+        "code/basics/strings",
         "code/basics/operators",
         "code/basics/methods/varargs",
         "code/basics/methods/overloading",
         "code/basics/methods/arguments",
+        "code/basics/exceptions",
         "code/basics/data-types/integers",
         "code/basics/data-types/floats",
         "code/basics/data-types/char",
         "code/basics/data-types/casting",
         "code/basics/data-types/array",
         "code/basics/control-flow",
-        "code/basics/strings"
+        "code/basics/oop/src/p2"
     ]
 }
