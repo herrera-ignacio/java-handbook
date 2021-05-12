@@ -29,6 +29,7 @@
 * [Strings](code/basics/strings)
 * [Packages](basics/packages)
 * [Exceptions](basics/exceptions)
+* [I/O](basics/io)
 
 ## OOP
 
