@@ -6,9 +6,15 @@
   * Iterable
   * Queue
   * Deque
+  * Set
+  * SortedSet
+  * NavigableSet
 * ArrayList
 * LinkedList
 * ArrayDeque
+* Hash Table
+* HashSet
+* TreeSet
 
 ## Interfaces
 
@@ -96,6 +102,54 @@ Useful when manipulating _head_ (delete with `remove()` or `poll()`/inspect with
 * Extends Queue
 * `ArrayDeque`, `LinkedList`, `ConcurrentLinkedDequeue`, `LinkedBlockingDeque`.
 
+### Set
+
+* Models mathematical set, i.e, __no duplicates__.
+* Useful when __uniqueness__ & __fast lookup__ matters.
+* `SortedSet` provides sorting.
+
+### SortedSet
+
+```java
+public interface SortedSet<E> extends Set<E> {
+    /* Range view */
+    SortedSet<E> subSet(E fromElement, E toElement);
+    SortedSet<E> headSet(E toElement);
+    SortedSet<E> tailSet(E fromElement);
+
+    /* Endpoints */
+    E first();
+    E last();
+
+    /* Comparator access */
+    Comparator<? super E> comparator();
+    default Spliterator<E> spliterator();
+}
+```
+
+### NavigableSet
+
+```java
+public interface NavigableSet<E> extends SortedSet<E> {
+    /* Closest matches */
+    E lower(E);
+    E floor(E);
+    E ceiling (E);
+    E higher(E);
+
+    /* Iterators */
+    Iterator<E> iterator() & descendingIterator();
+    NavigableSet<E> descendingSet();
+
+    /* Endpoints */
+    E pollFirst() & pollLast();
+
+    /* Range View */
+    NavigableSet<E> headSet(E toElement, boolean inclusive);
+}
+
+```
+
 ---
 
 ## Array List
@@ -128,3 +182,31 @@ Useful for __frequent add/remove during iteration__.
 * In case of `Deque` prefer `ArrayDeque` over `LinkedList` as it's considered faster.
 * Most methods run in __amortized constant time__.
 * `remove`, `removeFirstOccurrence`, `removeLastOccurrence` and `contains` run in O(n).
+
+## Hash Table
+
+* Implements an __associative array__ (`<key, value>`).
+* Duplicate values is fine but __no duplicate keys__.
+
+## `HashSet`
+
+* Hash table implementation of `Set` interface.
+* Internally uses `HashMap`.
+* Rapid lookup, insertion, and deletion ~ O(1).
+* Insertion order is not important.
+* Better for `removeAll()` & `retainAll()`.
+
+## `LinkedHashSet`
+
+_Hash table_ & _linked list_ implementation of _Set_ interface.
+
+* __Preserves insertion order__ (_doubly linked list_).
+* Extends `HashSet` (nearly as fast too), rapid lookup, insertion and deletion ~ O(1).
+* Permits one `null` element.
+* Internally uses `LinkedHashMap`.
+
+## `TreeSet`
+
+Red-black tree-based implementation of `NavigableSet` interface.
+
+Internally uses `TreeMap`.

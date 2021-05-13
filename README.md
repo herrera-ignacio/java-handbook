@@ -19,19 +19,19 @@
 
 ## Basics
 
-* [Data Types](basics/data-types)
+* [Data Types](basics/data_types)
 * [Methods](code/basics/methods)
 * [Operators](code/basics/operators)
   * [Operator Precedence](basics/operators/precedence)
   * [Operator Promotion](basics/operators/promotion)
 * [Control Flow](code/basics/control-flow)
-* [Java API](basics/java-api/packages)
+* [Java API](basics/java_api/packages)
 * [Strings](code/basics/strings)
 * [Packages](basics/packages)
 * [Exceptions](basics/exceptions)
 * [I/O](basics/io)
 * [Serialization](basics/serialization)
-* [Built-in Data Structures](basics/collections)
+* [Built-in Data Structures](basics/data_structures)
 
 ## OOP
 

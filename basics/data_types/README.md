@@ -16,4 +16,4 @@ There are 8 primitive types:
     * Character
       * `char`
 
-[See code examples](../code/basics/data-types).
+[See code examples](../code/basics/data_types).
