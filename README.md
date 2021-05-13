@@ -34,6 +34,8 @@
 * [Built-in Data Structures](basics/data_structures)
 * [Generics](basics/generics)
 * [Enums](basics/enums)
+* [Date & Time](basics/time)
+* [JBDC API](basics/jbdc)
 
 ## OOP
 
