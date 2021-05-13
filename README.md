@@ -32,6 +32,7 @@
 * [I/O](basics/io)
 * [Serialization](basics/serialization)
 * [Built-in Data Structures](basics/data_structures)
+* [Generics](basics/generics)
 
 ## OOP
 
