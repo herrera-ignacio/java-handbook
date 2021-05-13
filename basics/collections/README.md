@@ -5,7 +5,7 @@
   * List
   * Iterable
   * Queue
-  * Dequeue
+  * Deque
 * ArrayList
 * LinkedList
 * ArrayDeque
@@ -91,7 +91,7 @@ public interface Iterator<E> {
 
 Useful when manipulating _head_ (delete with `remove()` or `poll()`/inspect with `element()` or `peek()`) & _tail_ (`add(e)`).
 
-### Dequeue (FIFO & LIFO): Double-Ended Queue
+### Deque (FIFO & LIFO): Double-Ended Queue
 
 * Extends Queue
 * `ArrayDeque`, `LinkedList`, `ConcurrentLinkedDequeue`, `LinkedBlockingDeque`.
