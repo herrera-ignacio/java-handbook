@@ -31,6 +31,7 @@
 * [Exceptions](basics/exceptions)
 * [I/O](basics/io)
 * [Serialization](basics/serialization)
+* [Built-in Data Structures](basics/collections)
 
 ## OOP
 

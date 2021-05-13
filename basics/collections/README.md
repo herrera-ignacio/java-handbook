@@ -4,8 +4,11 @@
   * Collection
   * List
   * Iterable
+  * Queue
+  * Dequeue
 * ArrayList
 * LinkedList
+* ArrayDeque
 
 ## Interfaces
 
@@ -84,6 +87,15 @@ public interface Iterator<E> {
 }
 ```
 
+### Queue (FIFO)
+
+Useful when manipulating _head_ (delete with `remove()` or `poll()`/inspect with `element()` or `peek()`) & _tail_ (`add(e)`).
+
+### Dequeue (FIFO & LIFO): Double-Ended Queue
+
+* Extends Queue
+* `ArrayDeque`, `LinkedList`, `ConcurrentLinkedDequeue`, `LinkedBlockingDeque`.
+
 ---
 
 ## Array List
@@ -108,3 +120,11 @@ Useful for __frequent add/remove during iteration__.
 * Better for `removeAll()` & `retainAll()`.
 * `get(i)`, `add(i, e)`, `remove(i)`, `indexOf(Object)` and `lastIndexOf(object)` are O(n).
 * LIFO & FIFO operations in O(1)
+
+## `ArrayDeque`
+
+* Resizable __array implementation of `Deque` interface__.
+* Does not implement `List` and nulls are prohibited.
+* In case of `Deque` prefer `ArrayDeque` over `LinkedList` as it's considered faster.
+* Most methods run in __amortized constant time__.
+* `remove`, `removeFirstOccurrence`, `removeLastOccurrence` and `contains` run in O(n).
