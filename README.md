@@ -50,6 +50,7 @@
 * [Interface](oop/interface)
 * [Mixins](oop/mixins)
 * [Default methods](oop/default-methods)
+* [Nested Classes](oop/nested-classes)
 
 ## JVM: Java Virtual Machine
 
