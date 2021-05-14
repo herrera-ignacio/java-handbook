@@ -58,7 +58,7 @@
 ## Functional Programming
 
 * [Lambdas](functional/lambdas)
-* [Functional Interfaces]
+* [Functional Interfaces](functional/interfaces)
 * [Method References]
 * [Streams]
 
