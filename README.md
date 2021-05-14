@@ -60,7 +60,7 @@
 * [Lambdas](functional/lambdas)
 * [Functional Interfaces](functional/interfaces)
 * [Method References](functional/method-references)
-* [Streams]
+* [Streams](functional/streams)
 
 ## JVM: Java Virtual Machine
 
