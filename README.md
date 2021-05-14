@@ -55,6 +55,13 @@
 * [Default methods](oop/default-methods)
 * [Nested Classes](oop/nested-classes)
 
+## Functional Programming
+
+* [Lambdas](functional/lambdas)
+* [Functional Interfaces]
+* [Method References]
+* [Streams]
+
 ## JVM: Java Virtual Machine
 
 * [JVM Overview](jvm/overview)
