@@ -6,6 +6,9 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- Properties file -->
+    <context:property-placeholder location="classpath:coach.properties" />
 	
     <!-- Define your beans here -->
     
@@ -16,9 +19,10 @@
 
  	<bean id="myCoach"
  		class="com.irh.setterinjection.BaseballCoach">
- 		
+ 		 
  		<!--  Set up setter injection -->	
  		<property name="fortuneService" ref="myFortuneService" />
  		<property name="workoutLength" value="30 minutes" />
+ 		<property name="name" value="${coach.name}" />
  	</bean>
 </beans>

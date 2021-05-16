@@ -3,6 +3,8 @@
 * Spring case
 * Injection Types
   * Constructor Injection
+  * Setter Injection
+* Properties FIle
 
 ## Spring case
 
@@ -26,3 +28,9 @@ There are many types of injection with Spring, the most common oines are __Const
 2. Configure dependency injection in Spring config file.
 
 You can inject dependencies and literal values too.
+
+## Properties File
+
+1. Create properties file.
+2. Load properties file in spring config file.
+3. Reference values from properties file.
