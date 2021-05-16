@@ -8,7 +8,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
     
     <!-- 
-	Add a logger config to see logging messages.		
+	Add a logger configuration to see logging messages.		
 	- For more detailed logs, set values to "FINEST"
 	- For info on logging levels, see: http://www.vogella.com/tutorials/Logging/article.html
  -->
@@ -19,14 +19,6 @@
 
 	
     <!-- Define your beans here -->
-    
-    <!-- define the dependencies -->
-    <!--
-    <bean id="myFortuneService"
-    		class="com.irh.iocdemo.HappyFortuneService">
-   	</bean>
-     -->
-
  	<bean id="myCoach"
  		class="com.irh.iocdemo.RunningCoach">	 		
  	</bean>

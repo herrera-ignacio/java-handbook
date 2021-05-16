@@ -76,3 +76,4 @@
 * [Core Framework](spring/core)
 * [Spring Platform](spring/platform)
 * [Inversion of Control, Container & Beans](spring/inversion-of-control)
+* [Dependency Injection](spring/dependency-injection)
