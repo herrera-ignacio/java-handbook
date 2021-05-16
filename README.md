@@ -3,8 +3,11 @@
 * Introduction
 * Basics
 * OOP
+* Functional Programming
 * JVM
 * Java SE
+* Spring
+* Sprint Boot
 
 ## Introduction
 
@@ -77,3 +80,8 @@
 * [Spring Platform](spring/platform)
 * [Inversion of Control, Container & Beans](spring/inversion-of-control)
 * [Dependency Injection](spring/dependency-injection)
+* [Bean Lifecycle & Scopes](spring/bean-scopes)
+
+### Spring Boot
+
+* [Spring & Spring Boot](spring/spring-boot/differences)
