@@ -81,6 +81,7 @@
 * [Inversion of Control, Container & Beans](spring/inversion-of-control)
 * [Dependency Injection](spring/dependency-injection)
 * [Bean Lifecycle & Scopes](spring/bean-scopes)
+* [Java Annotations](spring/annotations)
 
 ### Spring Boot
 
