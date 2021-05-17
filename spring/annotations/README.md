@@ -87,3 +87,6 @@ private SupplementService supplementService;
 
 ## Bean Scopes and Lifecycle Methods
 
+* Bean scope can be specified with the `@Scope` annotation, after a `@Component` anotation.
+
+* Hooks (init & destroy) can be added using `@PostConstruct` and `@PreDestroy` annotations decorating the method that will be invoked as hook. Note that hooks cannot receive arguments and that for "prototype" scoped beans, Spring does not call the `@PreDestroy` method.
