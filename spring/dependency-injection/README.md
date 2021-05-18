@@ -16,6 +16,12 @@ The client delegates the responsibility of providing an object's dependencies to
 
 There are many types of injection with Spring, the most common oines are __Constructor Injection__ and __Setter Injection__.
 
+Injection can be configured using:
+
+1. Full XML config for beans.
+2. XML component scan & Java Annotations.
+3. Java Configuration Class
+
 ### Constructor Injection
 
 1. Define the dependency interface and class.

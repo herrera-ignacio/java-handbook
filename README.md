@@ -82,6 +82,7 @@
 * [Dependency Injection](spring/dependency-injection)
 * [Bean Lifecycle & Scopes](spring/bean-scopes)
 * [Java Annotations](spring/annotations)
+* [Spring configuration with Java Code](spring/config-no-xml)
 
 ### Spring Boot
 
