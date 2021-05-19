@@ -4,3 +4,4 @@ gradle
 out
 *.class
 spring/demos/*/.metadata
+*/**/lib
