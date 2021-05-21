@@ -1,5 +1,7 @@
 # Hibernate Overview
 
+![architecture](https://docs.jboss.org/hibernate/orm/5.3/userguide/html_single/images/architecture/data_access_layers.svg)
+
 ## Hibernate ORM
 
 Hibernate ORM enables developers to more easily write applications whose data outlives the applications process. It applies to relational databases (via JDBC).

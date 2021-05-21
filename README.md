@@ -91,3 +91,4 @@
 ## Hibernate
 
 * [Hibernate Overview](hibernate/overview)
+* [Annotations](hibernate/annotations)
