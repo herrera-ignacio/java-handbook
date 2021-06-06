@@ -77,6 +77,8 @@
 ## Maven
 
 * [Maven overview](maven/overview)
+* [Standard Directory Structure](maven/dir-structure)
+* [Dependency Coordinates](maven/dep-coord)
 
 ## Spring
 

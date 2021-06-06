@@ -16,6 +16,8 @@ Maven's primary goal is to allow a developer to comprehend the complete state of
 
 ### Making the build process easy
 
+> Maven works as a *Dependency Management* tool too, building and running with required dependencies.
+
 While using Maven doesn't eliminate the need to know about the underlying mechanisms, Maven does shield developers from many details.
 
 ### Providing a uniform build system
