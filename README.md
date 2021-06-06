@@ -105,6 +105,7 @@
   * [@SpringBootApplication](spring/spring-boot/annotations/SpringBootApplication)
 * [Spring Boot Dev Tools](spring/spring-boot/dev-tools)
 * [Spring Boot Actuator](spring/spring-boot/actuator)
+* [Running from Command Line](spring/spring-boot/command-line)
 
 ## Hibernate
 
