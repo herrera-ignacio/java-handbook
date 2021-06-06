@@ -100,6 +100,9 @@
 * [What is Spring Boot](spring/spring-boot/overview)
 * [Spring & Spring Boot](spring/spring-boot/differences)
 * [TDD](spring/spring-boot/tdd)
+* [Spring Boot Initializr](spring/spring-boot/initializr)
+* Annotations
+  * [@SpringBootApplication](spring/annotations/SpringBootApplication)
 
 ## Hibernate
 
