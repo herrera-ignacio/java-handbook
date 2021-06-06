@@ -79,6 +79,8 @@
 * [Maven overview](maven/overview)
 * [Standard Directory Structure](maven/dir-structure)
 * [Dependency Coordinates](maven/dep-coord)
+* [Maven Archetypes](maven/archetypes)
+* [Project Java Version](maven/java-ver)
 
 ## Spring
 
