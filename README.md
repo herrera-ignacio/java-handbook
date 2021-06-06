@@ -6,6 +6,7 @@
 * Functional Programming
 * JVM
 * Java SE
+* Maven
 * Spring
 * Sprint Boot
 
@@ -72,6 +73,10 @@
 ## Java SE
 
 * [Java Platform SE Overview](jse/overview)
+
+## Maven
+
+* [Maven overview](maven/overview)
 
 ## Spring
 
