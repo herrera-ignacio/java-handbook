@@ -81,6 +81,7 @@
 * [Dependency Coordinates](maven/dep-coord)
 * [Maven Archetypes](maven/archetypes)
 * [Project Java Version](maven/java-ver)
+* [Private Repositories](maven/private-repos)
 
 ## Spring
 
