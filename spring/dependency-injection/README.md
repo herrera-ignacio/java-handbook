@@ -4,7 +4,7 @@
 * Injection Types
   * Constructor Injection
   * Setter Injection
-* Properties FIle
+* Properties File
 
 ## Spring case
 

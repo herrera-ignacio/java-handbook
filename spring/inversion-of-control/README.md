@@ -40,4 +40,3 @@ Beans, and the _dependencies_ among them, are reflected in the _configuration me
 1. Setup Spring Beans
 2. Create Spring Containers
 3. Retrieve Beans from Spring Containers
-
