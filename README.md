@@ -118,6 +118,9 @@
 
 * [Kafka Overview](kafka/overview)
 * [How it works](kafka/how-it-works)
+* [Kafka as Distributed System](kafka/distributed)
+  * Leader/Follower Partitions
+  * Consumer Offset & Group Coordinator
 * Terminology
   * [Event](kafka/event)
   * [Producers & Consumers](kafka/producers-consumers)
