@@ -121,7 +121,8 @@
 * Terminology
   * [Event](kafka/event)
   * [Producers & Consumers](kafka/producers-consumers)
-  * [Topics](kafka/topics)
+  * [Topics & Partitions](kafka/topics)
+  * [Consumer Groups](kafka/consumer-groups)
 * [Kafka APIs](kafka/apis)
-
-> https://kafka.apache.org/documentation/#introduction
+* [Setting up Kafka locally](kafka/local)
+* [Retention Policy](kafka/log-policies)

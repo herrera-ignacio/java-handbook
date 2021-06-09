@@ -9,3 +9,5 @@ Kafka combines three key capabilities so you can implement your *use cases* for 
 3. To **process** streams of events as they occur or retrospectively.
 
 And all this functionality is provided in a distributed, highly scalable, elastic, fault-tolerant, and secure manner. Kafka can be deployed on bare-metal hardware, virtual machines, and containers, and on-premises as well as in the cloud. You can choose between self-managing your Kafka environments and using fully managed services offered by a variety of vendors.
+
+![](2021-06-09-16-50-07.png)

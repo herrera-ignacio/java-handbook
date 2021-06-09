@@ -23,3 +23,9 @@ When a new event is published to a topic, it is actually appended to one of the 
 ![](2021-06-09-15-33-35.png)
 
 > Events with the same key (denoted by their color in the figure) are written to the same partition. Note that both producers can write to the same partition if appropriate.
+
+* Each partition is an independent, ordered, and immutable, sequence of records.
+
+* ORdering is guaranteed only at the partition level.
+
+* Each record is assigned a sequential number called **offset**.
