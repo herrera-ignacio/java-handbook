@@ -9,6 +9,7 @@
 * Maven
 * Spring
 * Sprint Boot
+* Apache Kafka
 
 ## Introduction
 
@@ -112,3 +113,8 @@
 
 * [Hibernate Overview](hibernate/overview)
 * [Annotations](hibernate/annotations)
+
+## Apache Kafka
+
+* [Kafka Overview](kafka/overview)
+* [How it works](kafka/how-it-works)
