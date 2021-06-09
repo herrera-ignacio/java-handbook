@@ -2,6 +2,11 @@
 
 ![](2021-06-09-18-18-43.png)
 
+* Distributing Client Requests
+  * Leader/Follower Partitions
+  * Consumer Offset Tracking & Group Coordinator
+* Handling Data Loss
+
 ## Distributing Client Requests
 
 ### Leader/Follower Partitions
@@ -14,7 +19,7 @@ Kafka guarantees every partition replica resides on a different broker, so maxim
 
 Every **partition follower** is reading messages from the partition leader (acts like a kind of consumer) and does not serve any consumers of thar partition (only the partition leader does). Partition follower is considered in-sync if it keeps reading data from the partition leader without lagging behind and without losing connection to *ZooKeeper* (max lag defualt is 10 seconds and ZooKeeper timeout is 6 seconds, they are both configurable).
 
-When a partition leader shuts down for any reason (actually, the broker it resides in shuts down), one of it's in-sync partition followers becomes the ew leader.
+When a partition leader shuts down for any reason (actually, the broker it resides in shuts down), one of it's **in-sync partition followers/replicas** becomes the new leader.
 
 ### Consumer Offset Tracking & Group Coordinator
 
@@ -25,6 +30,14 @@ Kafka provides the otpion to store all the offsets for a given consumer group in
 > There's a special compacted Kafka topic named `__consumer_offsets` for processing `OffsetCommitRequest`.
 
 The Brokers periodically compact the offsets topic since it only needs to maintain the most recent offset commit per partition. The coordinator also caches the offsets in an in-memory table in order to serve offset fetches quickly.
+
+---
+
+## Handling Data Loss
+
+Kafka handles this through *Replication*. By setting *replication factor* higher than zero, some Brokers will behave as leaders of some partitions while working as followers for others as well. This way, partition followers will passively replicate the partition leader and will be ready in case of a failure.
+
+![](2021-06-09-20-42-02.png)
 
 ---
 
