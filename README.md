@@ -118,3 +118,10 @@
 
 * [Kafka Overview](kafka/overview)
 * [How it works](kafka/how-it-works)
+* Terminology
+  * [Event](kafka/event)
+  * [Producers & Consumers](kafka/producers-consumers)
+  * [Topics](kafka/topics)
+* [Kafka APIs](kafka/apis)
+
+> https://kafka.apache.org/documentation/#introduction
