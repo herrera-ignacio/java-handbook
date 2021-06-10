@@ -86,6 +86,8 @@
 
 ## Spring
 
+> [Demos](spring/demos)
+
 * [Why Spring](spring/why)
 * [Core Framework](spring/core)
 * [Spring Platform](spring/platform)
@@ -97,6 +99,8 @@
 * [Spring initialier](http://start.spring.io)
 
 ### Spring Boot
+
+> [Demos](spring-boot/demos)
 
 * [What is Spring Boot](spring/spring-boot/overview)
 * [Spring & Spring Boot](spring/spring-boot/differences)
@@ -116,6 +120,8 @@
 
 ## Apache Kafka
 
+> [Demos](kafka/demos), [Spring for Apache Kafka docs](https://docs.spring.io/spring-kafka/docs/current/reference/html/)
+
 * [Kafka Overview](kafka/overview)
 * [How it works](kafka/how-it-works)
 * [Kafka as Distributed System](kafka/distributed)
@@ -127,5 +133,6 @@
   * [Topics & Partitions](kafka/topics)
   * [Consumer Groups](kafka/consumer-groups)
 * [Kafka APIs](kafka/apis)
-* [Setting up Kafka locally](kafka/local)
+  * [KafkaTemplate.send()](kafka/apis/send)
+* [Setting up and interacting with Kafka locally](kafka/local)
 * [Retention Policy](kafka/log-policies)

@@ -85,7 +85,9 @@ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test-topic 
 
 ## Setting up Multiple Kafka Brokers
 
-* Update `server.properties`.
+> https://www.udemy.com/course/apache-kafka-for-developers-using-springboot/learn/lecture/17387630#content
+
+* Copy and update `server.properties` into multiple files like `server-<number>.properties`.
 
 ```
 broker.id=<unique-broker-d>
