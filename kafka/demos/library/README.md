@@ -31,3 +31,15 @@
 * Create domain objects.
 * Create a producer for domain objects that you want to trigger events with.
 * Create a controller that uses producer for sending events.
+
+## Testing
+
+We'll separate unit tests from integration tests in our `build.gradle` file:
+
+```
+sourceSets {
+	test {
+		java.srcDirs = ['src/test/java/unit', 'src/test/java/intg']
+	}
+}
+```
