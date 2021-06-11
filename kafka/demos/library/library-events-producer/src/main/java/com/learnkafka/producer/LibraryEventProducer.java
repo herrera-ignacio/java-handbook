@@ -22,16 +22,19 @@ import java.util.concurrent.ExecutionException;
 @Slf4j
 public class LibraryEventProducer {
 
-    private final KafkaTemplate<Integer, String> kafkaTemplate;
+    KafkaTemplate<Integer, String> kafkaTemplate;
 
-    private final ObjectMapper objectMapper;
+    ObjectMapper objectMapper;
 
-    private final String topic = "library-events";
+    String topic = "library-events";
 
     @Autowired
     public LibraryEventProducer(KafkaTemplate<Integer,String> kafkaTemplate, ObjectMapper objectMapper) {
         this.kafkaTemplate = kafkaTemplate;
         this.objectMapper = objectMapper;
+    }
+
+    public LibraryEventProducer() {
     }
 
     // Asynchronous Approach
@@ -68,7 +71,7 @@ public class LibraryEventProducer {
     }
 
     // Send with explicit topic approach
-    public void sendLibraryEventWithSpecificTopic(LibraryEvent libraryEvent) throws JsonProcessingException {
+    public ListenableFuture<SendResult<Integer, String>> sendLibraryEventWithSpecificTopic(LibraryEvent libraryEvent) throws JsonProcessingException {
 
         Integer key = libraryEvent.getLibraryEventId();
         String value = objectMapper.writeValueAsString(libraryEvent);
@@ -78,10 +81,10 @@ public class LibraryEventProducer {
         ListenableFuture<SendResult<Integer, String>> listenableFuture = kafkaTemplate.send(producerRecord);
 
         // Async behavior
-        addSendCallback(key, value, listenableFuture);
+        return addSendCallback(key, value, listenableFuture);
     }
 
-    private void addSendCallback(Integer key, String value, ListenableFuture<SendResult<Integer, String>> listenableFuture) {
+    private ListenableFuture<SendResult<Integer, String>> addSendCallback(Integer key, String value, ListenableFuture<SendResult<Integer, String>> listenableFuture) {
         listenableFuture.addCallback(new ListenableFutureCallback<SendResult<Integer, String>>() {
             // Handles publish status
             @Override
@@ -94,6 +97,8 @@ public class LibraryEventProducer {
                 handleSuccess(key, value, result);
             }
         });
+
+        return listenableFuture;
     }
 
     private void handleFailure(Integer key, String value, Throwable ex) {
