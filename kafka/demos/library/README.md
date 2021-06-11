@@ -5,7 +5,7 @@
 ## Creating project
 
 1. Create a new Java 11 project using [Spring Initializr](https://start.spring.io/).
-2. Add dependencies: Spring Web, Spring for Apache Kafka, Lombok.
+2. Add dependencies: Spring Web, Spring for Apache Kafka, Lombok, `org.springframework.boot:spring-boot-starter-validation`.
 3. Enable `Compile` > `Annotations Processors` in IntelliJ.
 
 ## Configuration
