@@ -55,6 +55,61 @@ sourceSets {
 
 ## Kafka Consumer
 
+### Creating Project
+
 1. Create a new Java 11 project using [Spring Initializr](https://start.spring.io/).
-2. Add dependencies: SDpring Data JPA, H2 Database, Kafka, Spring for Apache Kafka, Lombok, Spring Boot Starter Web
+2. Add dependencies: Spring Data JPA, H2 Database, Kafka, Spring for Apache Kafka, Lombok, Spring Boot Starter Web
 3. Enable `Compile` > `Annotations Processors` in IntelliJ.
+
+### Configuration 
+
+1. Setup concurrent consumers
+
+```java
+// consumer/LibraryEventsConsumer
+@Component
+@Slf4j
+public class LibraryEventsConsumer {
+
+    @KafkaListener(topics = {"library-events"})
+    public void onMessage(ConsumerRecord<Integer, String> consumerRecord) {
+
+        log.info("ConsumerRecord : {}", consumerRecord);
+    }
+}
+
+// config/LibraryEventsConsumerConfig.java
+@Configuration
+@EnableKafka
+public class LibraryEventsConsumerConfig {
+
+    @Bean
+    ConcurrentKafkaListenerContainerFactory<?, ?> kafkaListenerContainerFactory(
+            ConcurrentKafkaListenerContainerFactoryConfigurer configurer,
+            ConsumerFactory<Object, Object> kafkaConsumerFactory) {
+        ConcurrentKafkaListenerContainerFactory<Object, Object> factory = new ConcurrentKafkaListenerContainerFactory<>();
+        configurer.configure(factory, kafkaConsumerFactory);
+        factory.setConcurrency(3);
+        return factory;
+    }
+}
+
+```
+
+2. Setup H2 Database
+
+```yml
+// resources/application.yml
+  datasource:
+    url: jdbc:h2:mem:test
+    driver-class-name: org.h2.Driver
+  jpa:
+    database: h2
+    database-platform: org.hibernate.dialect.H2Dialect
+    generate-ddl: true
+  h2:
+    console:
+      enabled: true
+```
+
+> You should be able to access H2 Console in `localhost:PORT/h2-console`
