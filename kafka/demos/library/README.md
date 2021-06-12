@@ -2,13 +2,15 @@
 
 > This is a demo based on the following Udemy's course: https://www.udemy.com/course/apache-kafka-for-developers-using-springboot
 
-## Creating project
+## Kafka Producer
+
+### Creating project
 
 1. Create a new Java 11 project using [Spring Initializr](https://start.spring.io/).
 2. Add dependencies: Spring Web, Spring for Apache Kafka, Lombok, `org.springframework.boot:spring-boot-starter-validation`.
 3. Enable `Compile` > `Annotations Processors` in IntelliJ.
 
-## Configuration
+### Configuration
 
 * *KafkaTemplate* configuration (`resources/application.yml`)
 
@@ -26,13 +28,13 @@
       default-topic: library-events
 ```
 
-## Project structure
+### Project structure
 
 * Create domain objects.
 * Create a producer for domain objects that you want to trigger events with.
 * Create a controller that uses producer for sending events.
 
-## Testing
+### Testing
 
 We'll separate unit tests from integration tests in our `build.gradle` file:
 
@@ -43,3 +45,9 @@ sourceSets {
 	}
 }
 ```
+
+## Kafka Consumer
+
+1. Create a new Java 11 project using [Spring Initializr](https://start.spring.io/).
+2. Add dependencies: SDpring Data JPA, H2 Database, Kafka, Spring for Apache Kafka, Lombok, Spring Boot Starter Web
+3. Enable `Compile` > `Annotations Processors` in IntelliJ.
