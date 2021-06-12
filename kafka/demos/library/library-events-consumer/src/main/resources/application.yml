@@ -5,7 +5,9 @@ server:
   port: 8081
 ---
 spring:
-  profiles: local
+  config:
+    activate:
+      on-profile: local
   kafka:
     consumer:
       bootstrap-servers: localhost:9092, localhost:9093, localhost:9094
@@ -14,7 +16,9 @@ spring:
       group-id: library-events-listener-group
 ---
 spring:
-  profiles: prod
+  config:
+    activate:
+      on-profile: prod
   kafka:
     consumer:
       bootstrap-servers: localhost:9092, localhost:9093, localhost:9094

@@ -2,6 +2,13 @@
 
 > This is a demo based on the following Udemy's course: https://www.udemy.com/course/apache-kafka-for-developers-using-springboot
 
+## Running Projects
+
+Any of the projects can be run by:
+
+1. Building `.jar` file: `./gradlew build`
+2. Running jar file: `java -jar -D server.port=8081 build/libs/<file>.jar`
+
 ## Kafka Producer
 
 ### Creating project
