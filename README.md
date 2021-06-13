@@ -136,3 +136,4 @@
   * [KafkaTemplate.send()](kafka/apis/send)
 * [Setting up and interacting with Kafka locally](kafka/local)
 * [Retention Policy](kafka/log-policies)
+* [Recovery/Retry models](kafka/recovery-retry)
