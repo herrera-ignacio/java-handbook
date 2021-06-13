@@ -58,7 +58,7 @@ sourceSets {
 ### Creating Project
 
 1. Create a new Java 11 project using [Spring Initializr](https://start.spring.io/).
-2. Add dependencies: Spring Data JPA, H2 Database, Kafka, Spring for Apache Kafka, Lombok, Spring Boot Starter Web
+2. Add dependencies: Spring Data JPA, H2 Database, Kafka, Spring for Apache Kafka, Lombok, Spring Boot Starter Web, `rg.springframework.boot:spring-boot-starter-validation`.
 3. Enable `Compile` > `Annotations Processors` in IntelliJ.
 
 ### Configuration 
@@ -113,3 +113,5 @@ public class LibraryEventsConsumerConfig {
 ```
 
 > You should be able to access H2 Console in `localhost:PORT/h2-console`
+
+3. Create Domain objects needed (e.g, Events and Entities)
