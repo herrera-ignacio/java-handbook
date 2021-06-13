@@ -137,3 +137,4 @@
 * [Setting up and interacting with Kafka locally](kafka/local)
 * [Retention Policy](kafka/log-policies)
 * [Recovery/Retry models](kafka/recovery-retry)
+* [Retain/Recover Failed Records](kafka/retain-failed)
