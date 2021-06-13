@@ -118,6 +118,10 @@
 * [Hibernate Overview](hibernate/overview)
 * [Annotations](hibernate/annotations)
 
+## Apache Zookeeper
+
+* [Zookeper Overview](zookeper/overview)
+
 ## Apache Kafka
 
 > [Demos](kafka/demos), [Spring for Apache Kafka docs](https://docs.spring.io/spring-kafka/docs/current/reference/html/)
