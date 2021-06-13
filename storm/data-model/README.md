@@ -15,6 +15,8 @@
 
 ## Tuples
 
+> `Fields`, `Values`, `Tuple`
+
 Tuples are the basic unit of data in Storm, and consists of an **ordered list of named fields**.
 
 ```
@@ -37,6 +39,9 @@ Tuples are the basic unit of data in Storm, and consists of an **ordered list of
 
 ## Topology
 
+> `TopologyBuilder`: `setSpout`, `setBolt`, `createTopology`.
+> `SpoutDeclarer` and `BoltDecarer` objects can be used to set spout and bolt properties.
+
 * Represents the processing of data within Storm.
 
 * Consists of interconnected components: **Spouts** and **Bolts**.
@@ -51,6 +56,9 @@ Tuples are the basic unit of data in Storm, and consists of an **ordered list of
 
 ### Spout
 
+> * `IRichSpout`: `Open()`, `nextTuple()`, `declareOutputFields()`, `ack()`, `fail()`.
+> * `BaseRichSpout`: `Open()`, `nextTuple()`, `declareOutputFields()`.
+
 * Entry point for data in Storm topology. Spouts get data from external sources and distribute data as tuples to bolts.
 
 * Used to **convert input data into stream(s) of tuples**.
@@ -62,6 +70,9 @@ Tuples are the basic unit of data in Storm, and consists of an **ordered list of
 ![](2021-06-13-17-52-02.png)
 
 ### Bolt
+
+> * `IRichBolt`: `prepare()`, `execute()`, `declareOutputFields()`, `ack()`, `fail()`, `cleanup()`.
+> * `BaseRichBolt`: `prepare()`, `execute()`, `declareOutputFields()`.
 
 * **Main data processing component** of Storm.
 
