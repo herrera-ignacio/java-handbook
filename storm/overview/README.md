@@ -19,3 +19,19 @@ A Storm application is designed as a "*Topology*" in the shape of a *Directed Ac
 * Continuous Computation
 * Distributed RPC
 * ETL
+
+### Examples
+
+* Transport operator uses GPS data from vehicles to plan optimum delivery routes.
+* IOT data from sensors is used to adjust various parameters.
+* Mobile operators use location data from customers to present appropriate advertisements. ny intrusion attempts.
+* Law enforcement agency uses real time twitter data to identify potential trouble makers during a riot.
+* Power transmission company uses real time power usage data to route power supply.
+
+## Features
+
+* Real time stream processing
+* Distributed system
+* Fault-tolerant
+* Horizontally scalable
+* Guaranteed processing of data
