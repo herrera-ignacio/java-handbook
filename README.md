@@ -154,3 +154,4 @@
     * Spout
     * Bolt
 * [Environment setup](storm/setup)
+* [Bolt Parallelism](storm/bolt-parallelism)
