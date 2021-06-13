@@ -147,3 +147,9 @@
 
 * [Storm Overview](storm/overview)
 * [Architecture Critical Components](storm/critical-components)
+* [Data Model](storm/data-model)
+  * Tuples
+  * Streams
+  * Topology
+    * Spout
+    * Bolt

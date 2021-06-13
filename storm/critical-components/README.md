@@ -1,5 +1,7 @@
 # Architecture Critical Components
 
+Storm has a **master-slave architecture**.
+
 * Nodes
   * Master Nodes
   * Worker Nodes
@@ -12,7 +14,7 @@
 
 A **Master Node** executes a daemon **Nimbus** which assigns tasks to machines and monitors their performances.
 
-On the other hand, a **Worker Node** runs the daemon called **Supervisor** which assigns the tasks to other worker nodes and operates them as per the need.
+On the other hand, a **Worker Node** runs the daemon called **Supervisor** which spawn *worker processes* on the worker node and assign work to them..
 
 As Storm cannot monitor the state and health of cluster, it deploys *ZooKeeper* to solve this issue which connects *Nimbus* with the *Supervisors*.
 
