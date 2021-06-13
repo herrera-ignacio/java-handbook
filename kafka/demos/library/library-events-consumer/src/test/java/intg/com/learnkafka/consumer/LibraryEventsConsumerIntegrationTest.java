@@ -179,7 +179,10 @@ public class LibraryEventsConsumerIntegrationTest {
         latch.await(3, TimeUnit.SECONDS);
 
         // Then
-        verify(libraryEventsConsumerSpy, times(3)).onMessage(isA(ConsumerRecord.class));
-        verify(libraryEventsServiceSpy, times(3)).processLibraryEvent(isA(ConsumerRecord.class));
+
+        // Each one is processed one more time after retry exhausted, because of recovery attempt
+        verify(libraryEventsConsumerSpy, times(4)).onMessage(isA(ConsumerRecord.class));
+        verify(libraryEventsServiceSpy, times(4)).processLibraryEvent(isA(ConsumerRecord.class));
+        verify(libraryEventsServiceSpy, times(1)).handleRecovery(isA(ConsumerRecord.class));
     }
 }
