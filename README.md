@@ -165,4 +165,5 @@
     * [Grouped Streams](storm/trident/grouped-streams)
     * [Merge & Joins](storm/trident/merges)
   * [State](storm/trident/state)
+* [Scheduling](storm/scheduling)
 * [External Interfaces](storm/external-interfaces)
