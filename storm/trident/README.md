@@ -63,11 +63,11 @@ public class myBackingMap implements IBackingMap ... {
 
 ## Operations
 
-* Partition-local operations
-* Repartitioning operations
-* Aggregation operations
-* Grouped stream operations
-* Merges and Joins
+* [Partition-local operations](./partition-aggregate)
+* [Repartitioning operations](./repartitioning)
+* [Aggregation operations](./aggregate)
+* [Grouped streams operations](./grouped-streams)
+* [Merges and Joins](./merges)
 
 #### Case Study: Problem
 

@@ -162,4 +162,6 @@
     * [Partition Aggregate](storm/trident/partition-aggregate)
     * [Repartitioning](storm/trident/repartitioning)
     * [Aggregate](storm/trident/aggregate)
+    * [Grouped Streams](storm/trident/grouped-streams)
+    * [Merge & Joins](storm/trident/merges)
 * [External Interfaces](storm/external-interfaces)
