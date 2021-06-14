@@ -4,7 +4,6 @@
   * Trident Streams
 * Trident Processing
   * Transformations
-  * State Processing
 * Trident Operations
 
 ## Trident Layer
@@ -49,15 +48,6 @@ public class myMain {
   
   public static class myFunction extends BaseFunction { ... }
 
-}
-```
-
-### State Processing
-
-```java
-public class myBackingMap implements IBackingMap ... {
-  public List<T> multiGet(...);
-  public void multiPut(...);
 }
 ```
 
