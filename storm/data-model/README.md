@@ -25,6 +25,14 @@ Tuples are the basic unit of data in Storm, and consists of an **ordered list of
 
 > Tick Tuples (empty tuples) can be configured to be send periodically to bolts (set `TOPOLOGY_TICK_TUPLE_FREQ_SECS`) so a bolt can take an specific action every certain amount of time (e.g, saving the number of tuples processed to database). 
 
+```java
+// Tick Tuples
+
+config.put(config.TOPOLOGY_TICK_TUPLE_FREQ_SECS, 1);
+
+if (TupleUtils.isTick(tuple)) { ... }
+```
+
 ## Streams
 
 * Streams are unbounded sequence of tuples.
@@ -36,6 +44,16 @@ Tuples are the basic unit of data in Storm, and consists of an **ordered list of
 * Storm gets input data that is processed as streams.
 
 * Tuples in streams can be processed in parallel.
+
+```java
+declarer.declareStream("streamRET", allFields);
+
+declarer.declare(new Fields("logData", ...));
+
+Integer serialNumber = tuple.getInteger();
+
+String key = tuple.getStringByField("key");
+```
 
 ## Topology
 
@@ -54,6 +72,20 @@ Tuples are the basic unit of data in Storm, and consists of an **ordered list of
 
 ![](2021-06-13-17-55-54.png)
 
+```java
+public class myMain {
+
+  builder.setSpout(...)
+
+  builder.setBolt(...)
+    .shuffleGroping(...)
+
+  LocalCluster cluster = new LocalCluster();
+
+  StormSubmitter.submitTopology(...);
+}
+```
+
 ### Spout
 
 > * `IRichSpout`: `Open()`, `nextTuple()`, `declareOutputFields()`, `ack()`, `fail()`.
@@ -68,6 +100,15 @@ Tuples are the basic unit of data in Storm, and consists of an **ordered list of
 * Ready Spouts are available for popular data sources like Kafka.
 
 ![](2021-06-13-17-52-02.png)
+
+```java
+public class readerSpout extends BaseRichSpout {
+  
+  public void open(...) {...}
+
+  public void nextTuple(...) {...}
+}
+```
 
 ### Bolt
 
@@ -87,3 +128,12 @@ Tuples are the basic unit of data in Storm, and consists of an **ordered list of
 * Ready bolts are available for popular data sources like Kafka, Hbase, Redis & Hive.
 
 ![](2021-06-13-17-55-38.png)
+
+```java
+public class printBolt extends BaseBasicBolt {
+  
+  public void prepare(...) {...}
+
+  public void execute(...) {...}
+}
+```
