@@ -128,6 +128,8 @@
 > [Demos](kafka/demos), [Spring for Apache Kafka docs](https://docs.spring.io/spring-kafka/docs/current/reference/html/)
 
 * [Kafka Overview](kafka/overview)
+  * Kafka vs Traditional Message Systems
+  * Use Cases
 * [How it works](kafka/how-it-works)
 * [Kafka as Distributed System](kafka/distributed)
   * Leader/Follower Partitions
