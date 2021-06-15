@@ -68,6 +68,13 @@
 * [Method References](functional/method-references)
 * [Streams](functional/streams)
 
+## Effective Java
+
+> These are my notes from the *Effective Java Third Edition* book by *Joshua Bloch*.
+
+* Creating and Destroying Objects
+  * [1: Consider static factory methods instead of constructors](effective-java/1)
+
 ## JVM: Java Virtual Machine
 
 * [JVM Overview](jvm/overview)
