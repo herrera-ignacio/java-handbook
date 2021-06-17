@@ -74,6 +74,7 @@
 
 * Creating and Destroying Objects
   * [1: Consider static factory methods instead of constructors](effective-java/1)
+  * [2: Consider a builder when faced with many constructor parameters](effective-java/2)
 
 ## JVM: Java Virtual Machine
 
