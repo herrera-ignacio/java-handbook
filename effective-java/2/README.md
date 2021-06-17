@@ -1,4 +1,4 @@
-# 2: Consider a builder when faced with many constructor parameters.
+# 2: Consider a builder when faced with many constructor parameters
 
 Static factories and constructors share a limitation: they do not scale well to large numbers of optional parameters.
 

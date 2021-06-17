@@ -75,6 +75,7 @@
 * Creating and Destroying Objects
   * [1: Consider static factory methods instead of constructors](effective-java/1)
   * [2: Consider a builder when faced with many constructor parameters](effective-java/2)
+  * [3: Enforce the singleton property with a private constructor or an enum type](effective-java/3)
 
 ## JVM: Java Virtual Machine
 
