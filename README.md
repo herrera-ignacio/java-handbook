@@ -78,6 +78,7 @@
   * [3: Enforce the singleton property with a private constructor or an enum type](effective-java/3)
   * [4: Enforce noninstantiability with a private constructor](effective-java/4)
   * [5: Prefer dependency injection to hardwiring resources](effective-java/5)
+  * [6: Avoid creating unnecessary objects](effective-java/6)
 
 ## JVM: Java Virtual Machine
 
