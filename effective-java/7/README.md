@@ -2,6 +2,8 @@
 
 Garbage collectors can lead to the impression that you don't have to think about memory management.
 
+## Case Study: Classes
+
 ```java
 // Can you spot the "memory leak"?
 public class Stack {
@@ -62,3 +64,23 @@ public Object pop() {
 An added benefit of nulling out obsolete references is that if they are subsequently dereferenced by mistake, the program will immediately fail with a `NullPointerException`, rather than quietly doing the wrong thing.
 
 **Nulling out object references should be the exception rather than the norm**. The best way to eliminate an obsolte reference is to let the variable that contained the reference fall out of scope. This occurs naturally if you **define each variable in the narrowest possible scope** ([Item 57](../57)).
+
+You should null out references when you have a class that *manages its own memory*. In our `Stack` class, the *storage pool* consists of the elements of the `elements` array (the object reference cells, not the objects themselves). The elements in the active oportio nof the array are *allocated*, and those in the remainder are *free*. The garbage collector has no way of knowing this, only the programmer knows thne inactive portion of the array is unimportant.
+
+## Case Study: Caches
+
+Generally speaking, **whenever a class manages its own memory, the programmer should be alert for memory leaks**.
+
+Another **common source of memory leaks is caches**. Once you put an object reference int oa cache, it's easy to forget that it's here and leave it in the cache long after it becomes irrelevant.
+
+If you are lucky enough to implement a cache for which an entry is relevant exactly so as long as there are references to its key outside of the cache, represent the cache as a `WeakHashMap`; entries will be removed automatically after they become obsolete.
+
+more commonly, the useful lifetime of a cache entry is less well defined. Under these circumstances, the cache should **ocasionally be cleansed** of entries that have fallen into disuse. This can be done by a background thread (perhaps a `ScheduledThreadPoolExecutor`) or as a side effect of adding new entries to the cache. The `LinkedHashMap` class facilitates the latter approach with its `removeEldestEntry` method. For more sophisticated caches, you may need to use `java.lang.ref` directly.
+
+## Case Study: Listeners/Callbacks
+
+If you implement an API where clients register callbacks but don't deregister them explicitly, they wil accumulate unless you take some action.
+
+One way to ensure that callbacks are garbage collected promptly is to store only *weak references* to them, for instance, by storing themm only as keys in a `WeakHashMap`.
+
+> Memory leaks typically do not manifest themselves as obvious failures, they are typically discovered only as a result of careful code inspection or with the aid of *heap profilers*. Therefore, it is very desirable to learn to anticipate problems like this before they occur.
