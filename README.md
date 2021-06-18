@@ -76,6 +76,8 @@
   * [1: Consider static factory methods instead of constructors](effective-java/1)
   * [2: Consider a builder when faced with many constructor parameters](effective-java/2)
   * [3: Enforce the singleton property with a private constructor or an enum type](effective-java/3)
+  * [4: Enforce noninstantiability with a private constructor](effective-java/4)
+  * [5: Prefer dependency injection to hardwiring resources](effective-java/5)
 
 ## JVM: Java Virtual Machine
 
