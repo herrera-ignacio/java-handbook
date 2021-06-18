@@ -79,6 +79,7 @@
   * [4: Enforce noninstantiability with a private constructor](effective-java/4)
   * [5: Prefer dependency injection to hardwiring resources](effective-java/5)
   * [6: Avoid creating unnecessary objects](effective-java/6)
+  * [7: Eliminate obsolete object references](effective-java/7)
 
 ## JVM: Java Virtual Machine
 
