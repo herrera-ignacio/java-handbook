@@ -81,6 +81,7 @@
   * [6: Avoid creating unnecessary objects](effective-java/6)
   * [7: Eliminate obsolete object references](effective-java/7)
   * [8: Avoid finalizers and cleaners](effective-java/8)
+  * [9: Prefer try-wioth-resources to try-finally](effective-java/9)
 
 ## JVM: Java Virtual Machine
 
