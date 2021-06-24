@@ -72,7 +72,7 @@
 
 > These are my notes from the *Effective Java Third Edition* book by *Joshua Bloch*.
 
-* Creating and Destroying Objects
+* [Creating and Destroying Objects](effective-java/c1)
   * [1: Consider static factory methods instead of constructors](effective-java/1)
   * [2: Consider a builder when faced with many constructor parameters](effective-java/2)
   * [3: Enforce the singleton property with a private constructor or an enum type](effective-java/3)
@@ -82,6 +82,8 @@
   * [7: Eliminate obsolete object references](effective-java/7)
   * [8: Avoid finalizers and cleaners](effective-java/8)
   * [9: Prefer try-wioth-resources to try-finally](effective-java/9)
+* [Methods Common to All Objects](effective-java/c2)
+  * [10: Obey the general contract when overriding `equals`](effective-java/10)
 
 ## JVM: Java Virtual Machine
 
