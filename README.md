@@ -80,6 +80,7 @@
   * [5: Prefer dependency injection to hardwiring resources](effective-java/5)
   * [6: Avoid creating unnecessary objects](effective-java/6)
   * [7: Eliminate obsolete object references](effective-java/7)
+  * [8: Avoid finalizers and cleaners](effective-java/8)
 
 ## JVM: Java Virtual Machine
 
