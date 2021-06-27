@@ -84,6 +84,7 @@
   * [9: Prefer try-wioth-resources to try-finally](effective-java/9)
 * [Methods Common to All Objects](effective-java/c2)
   * [10: Obey the general contract when overriding `equals`](effective-java/10)
+  * [11: Always override `hashCode` when you override `equals`](effective-java/11)
 
 ## JVM: Java Virtual Machine
 
