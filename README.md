@@ -85,6 +85,7 @@
 * [Methods Common to All Objects](effective-java/c2)
   * [10: Obey the general contract when overriding `equals`](effective-java/10)
   * [11: Always override `hashCode` when you override `equals`](effective-java/11)
+  * [12: Always override `toString`](effective-java/12)
 
 ## JVM: Java Virtual Machine
 
