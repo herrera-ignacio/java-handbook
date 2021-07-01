@@ -4,6 +4,7 @@
 * Basics
 * OOP
 * Functional Programming
+* Specifics
 * JVM
 * Java SE
 * Maven
@@ -67,6 +68,10 @@
 * [Functional Interfaces](functional/interfaces)
 * [Method References](functional/method-references)
 * [Streams](functional/streams)
+
+## Specifics
+
+* [`Long` vs `long`](specifics/Long-vs-long)
 
 ## Effective Java
 
