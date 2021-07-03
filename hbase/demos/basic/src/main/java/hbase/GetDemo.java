@@ -8,7 +8,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 
-public class GettingStarted {
+public class GetDemo {
 
     static Configuration conf = HBaseConfiguration.create();
 
@@ -19,18 +19,13 @@ public class GettingStarted {
         Connection connection = ConnectionFactory.createConnection(conf);
         Table table = connection.getTable(TableName.valueOf("demo"));
 
-        // Read example
-        Scan scan1 = new Scan();
-        ResultScanner scanner1 = table.getScanner(scan1);
+        Get get = new Get("3".getBytes());
+        Result getResult = table.get(get);
 
-        for(Result rs : scanner1) {
-            // System.out.println(rs);
-            System.out.println(Bytes.toString(rs.getRow()));
-            System.out.println(Bytes.toString(rs.getValue("cf1".getBytes(), "column1".getBytes())));
-            System.out.println(Bytes.toString(rs.getValue("cf1".getBytes(), "column2".getBytes())));
-        }
-
-        scanner1.close();
+        System.out.println("Printing columns for row-key 3");
+        System.out.println(getResult);
+        System.out.println(Bytes.toString(getResult.getRow()));
+        System.out.println(Bytes.toString(getResult.getValue("cf1".getBytes(), "column1".getBytes())));
+        System.out.println(Bytes.toString(getResult.getValue("cf1".getBytes(), "column2".getBytes())));
     }
-
 }
