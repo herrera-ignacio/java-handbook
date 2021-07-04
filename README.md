@@ -73,6 +73,7 @@
 ## Specifics
 
 * [`Long` vs `long`](specifics/Long-vs-long)
+* [Exporting Libraries](specifics/exporting-library)
 
 ## Effective Java
 
