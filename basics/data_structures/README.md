@@ -1,5 +1,7 @@
 # Data Structures
 
+![](2021-07-06-13-54-43.png)
+
 * Collection Interfaces
   * List
   * Iterable

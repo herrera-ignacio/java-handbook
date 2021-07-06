@@ -33,7 +33,6 @@ A good hash function tends to produce unequal hash codes for unequal instances. 
 
 ### Some Guidelines
 
-
 **Do not be tempted to exclude significant fields from the hash code computation to improve performance**. While the resulting hash function may run faster, its poor quality may degrade hash tables' performance to the point where they become unusable. A given large collection of instances may differ mainly in regions you've chosen to ignore.
 
 **Don't provide da detailed specification for the value returned by `hashCode`, so clients can't reasonably depend on it; this gives you the flexibility to change it**.
