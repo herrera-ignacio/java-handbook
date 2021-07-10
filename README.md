@@ -74,6 +74,7 @@
 
 * [`Long` vs `long`](specifics/Long-vs-long)
 * [Exporting Libraries](specifics/exporting-library)
+* [Parameterized Tests](specifics/parameterized-tests)
 
 ## Effective Java
 
