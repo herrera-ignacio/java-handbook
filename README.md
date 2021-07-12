@@ -98,6 +98,7 @@
   * [14: Consider implementing `Comparable`](effective-java/14)
 * [Classes and Interfaces](effective-java/c3)
   * [15: Minimize the accessibility of classes and members](effective-java/15)
+  * [16: In public classes, use accessor methods, not public fields](effective-java/16)
 
 ## JVM: Java Virtual Machine
 
