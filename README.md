@@ -96,6 +96,8 @@
   * [12: Always override `toString`](effective-java/12) 
   * [13: Override `clone` judiciously](effective-java/13)
   * [14: Consider implementing `Comparable`](effective-java/14)
+* [Classes and Interfaces](effective-java/c3)
+  * [15: Minimize the accessibility of classes and members](effective-java/15)
 
 ## JVM: Java Virtual Machine
 
