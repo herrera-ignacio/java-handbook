@@ -95,6 +95,7 @@
   * [11: Always override `hashCode` when you override `equals`](effective-java/11)
   * [12: Always override `toString`](effective-java/12) 
   * [13: Override `clone` judiciously](effective-java/13)
+  * [14: Consider implementing `Comparable`](effective-java/14)
 
 ## JVM: Java Virtual Machine
 
