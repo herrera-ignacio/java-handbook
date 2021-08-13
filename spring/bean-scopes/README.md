@@ -19,7 +19,7 @@ You can add custom code (__no-arg methods__ of the bean) during __bean initializ
 * Set/clean up handles to resources (db, sockets, file, etc).
 
 ```xml
-<brean id="myCoach"
+<bean id="myCoach"
     class="foo.bar"
     scope="prototype"
     init-method="myStartUpLogic"

@@ -72,33 +72,10 @@
 
 ## Specifics
 
+* [Effective Java](effective-java)
 * [`Long` vs `long`](specifics/Long-vs-long)
 * [Exporting Libraries](specifics/exporting-library)
 * [Parameterized Tests](specifics/parameterized-tests)
-
-## Effective Java
-
-> These are my notes from the *Effective Java Third Edition* book by *Joshua Bloch*.
-
-* [Creating and Destroying Objects](effective-java/c1)
-  * [1: Consider static factory methods instead of constructors](effective-java/1)
-  * [2: Consider a builder when faced with many constructor parameters](effective-java/2)
-  * [3: Enforce the singleton property with a private constructor or an enum type](effective-java/3)
-  * [4: Enforce noninstantiability with a private constructor](effective-java/4)
-  * [5: Prefer dependency injection to hardwiring resources](effective-java/5)
-  * [6: Avoid creating unnecessary objects](effective-java/6)
-  * [7: Eliminate obsolete object references](effective-java/7)
-  * [8: Avoid finalizers and cleaners](effective-java/8)
-  * [9: Prefer try-wioth-resources to try-finally](effective-java/9)
-* [Methods Common to All Objects](effective-java/c2)
-  * [10: Obey the general contract when overriding `equals`](effective-java/10)
-  * [11: Always override `hashCode` when you override `equals`](effective-java/11)
-  * [12: Always override `toString`](effective-java/12) 
-  * [13: Override `clone` judiciously](effective-java/13)
-  * [14: Consider implementing `Comparable`](effective-java/14)
-* [Classes and Interfaces](effective-java/c3)
-  * [15: Minimize the accessibility of classes and members](effective-java/15)
-  * [16: In public classes, use accessor methods, not public fields](effective-java/16)
 
 ## JVM: Java Virtual Machine
 
