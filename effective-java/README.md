@@ -28,3 +28,5 @@
   * [21: Design interfaces for posterity](21)  
   * [22: Use interfaces only to define types](22)
   * [23: Prefer class hierarchies to tagged classes](23)
+  * [24: Favor static members classes over nonstatic](24)
+  * [25: Limit source files to a single top-level class](25)
