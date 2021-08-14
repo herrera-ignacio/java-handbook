@@ -33,3 +33,4 @@
 * [Generics](c4)
   * [26: Don't use raw types](26)
   * [27: Eliminate unchecked warnings](27)
+  * [28: Prefer lists to arrays](28)
