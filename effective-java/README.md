@@ -27,3 +27,4 @@
   * [20: Prefer interfaces to abstract classes](20)
   * [21: Design interfaces for posterity](21)  
   * [22: Use interfaces only to define types](22)
+  * [23: Prefer class hierarchies to tagged classes](23)
