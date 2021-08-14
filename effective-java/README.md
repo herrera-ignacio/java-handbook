@@ -24,3 +24,4 @@
   * [17: Minimize mutability](17)
   * [18: Favor composition over inheritance](18)
   * [19: Design and document for inheritance or else prohibit it](19)
+  * [20: Prefer interfaces to abstract classes](20)
