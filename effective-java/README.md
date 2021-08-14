@@ -30,3 +30,5 @@
   * [23: Prefer class hierarchies to tagged classes](23)
   * [24: Favor static members classes over nonstatic](24)
   * [25: Limit source files to a single top-level class](25)
+* [Generics](c4)
+  * [26: Don't use raw types](26)
