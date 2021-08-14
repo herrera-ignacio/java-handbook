@@ -22,3 +22,4 @@
   * [15: Minimize the accessibility of classes and members](15)
   * [16: In public classes, use accessor methods, not public fields](16)
   * [17: Minimize mutability](17)
+  * [18: Favor composition over inheritance](18)
