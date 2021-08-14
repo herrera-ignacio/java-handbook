@@ -23,3 +23,4 @@
   * [16: In public classes, use accessor methods, not public fields](16)
   * [17: Minimize mutability](17)
   * [18: Favor composition over inheritance](18)
+  * [19: Design and document for inheritance or else prohibit it](19)
