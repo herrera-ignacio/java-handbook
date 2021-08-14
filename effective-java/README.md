@@ -26,3 +26,4 @@
   * [19: Design and document for inheritance or else prohibit it](19)
   * [20: Prefer interfaces to abstract classes](20)
   * [21: Design interfaces for posterity](21)  
+  * [22: Use interfaces only to define types](22)
