@@ -38,3 +38,6 @@
   * [30: Favor generic methods](30)
   * [31: Use bounded wildcards to increase API flexibility](31)
   * [32: Combine generics and varargs judiciously](32)
+  * [33: Consider typesafe heterogeneous containers](33)
+* [Enums and Annotations](c5)
+  * [34: Use enums instead of `int` constants](34)
