@@ -45,3 +45,4 @@
   * [36: Use `EnumSet` instead of bit fields](36)
   * [37: Use `EnumMap` instead of ordinal indexing](37)
   * [38: Emulate extensible enums with interfaces](38)
+  * [39: Prefer annotations to naming patterns](39)
