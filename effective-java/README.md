@@ -41,3 +41,5 @@
   * [33: Consider typesafe heterogeneous containers](33)
 * [Enums and Annotations](c5)
   * [34: Use enums instead of `int` constants](34)
+  * [35: Use instance fields instead of ordinals](35)
+  * [36: Use `EnumSet` instead of bit fields](36)
