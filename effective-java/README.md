@@ -37,3 +37,4 @@
   * [29: Favor generic types](29)
   * [30: Favor generic methods](30)
   * [31: Use bounded wildcards to increase API flexibility](31)
+  * [32: Combine generics and varargs judiciously](32)
