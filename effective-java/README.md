@@ -43,3 +43,5 @@
   * [34: Use enums instead of `int` constants](34)
   * [35: Use instance fields instead of ordinals](35)
   * [36: Use `EnumSet` instead of bit fields](36)
+  * [37: Use `EnumMap` instead of ordinal indexing](37)
+  * [38: Emulate extensible enums with interfaces](38)
