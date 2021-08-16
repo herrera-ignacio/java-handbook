@@ -52,3 +52,4 @@
   * [42: Prefer lambdas to anonymous classes](42)
   * [43 Prefer method references to lambdas](43)
   * [44: Favor the use of standard functional interfaces](44)
+  * [45: Use streams judiciously](45)
