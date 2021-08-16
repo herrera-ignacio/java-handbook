@@ -7,6 +7,9 @@
   * `toMap(keyMapper, valueMapper, mergeFunction)`
   * `toMap(keyMapper, valueMapper, mergeFunction, mapFactory)`
 * `groupingBy`
+  * Classifier function
+  * Downstream collector
+  * Map factory
 * Other collectors
 
 ## Overview
