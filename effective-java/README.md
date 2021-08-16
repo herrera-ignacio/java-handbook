@@ -50,3 +50,5 @@
   * [41: Use marker interfaces to define types](41)
 * [Lambdas and Streams](c6)
   * [42: Prefer lambdas to anonymous classes](42)
+  * [43 Prefer method references to lambdas](43)
+  * [44: Favor the use of standard functional interfaces](44)
