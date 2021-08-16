@@ -92,6 +92,7 @@ For example, suppose we have a stream of record albums by various artists, and w
 
 ```java
 // Collector to generate a map from key to chosen element for key
+// Map each artist to the album that has the best album by sales
 Map<Artist, Album> topHits = albums.collect(
   toMap(Album::artist, a->a, maxBy(comparing(Album::sales)));
 )
@@ -99,7 +100,7 @@ Map<Artist, Album> topHits = albums.collect(
 
 Note that the comparator uses the static factory method `maxBy`, which is statically imported from `BinaryOperator`. This method converts a `Comparator<T>` into a `BinaryOperator<T>` that computes the maxium implied by the specified comparator. In this case, the comparator is returned by the comparator construction method `comparing`, which takes the key extractor function `Album::sales`.
 
-This may seem a bit convoluted, but the code reads nicely. Loosely speaking, it says, "convert the stream of albums to a map, mapping each artist to the album that has the best album by sales", which maps closely to the problem statement.
+This may seem a bit convoluted, but the code reads nicely. Loosely speaking, it says, "*convert the stream of albums to a map, mapping each artist to the album that has the best album by sales*", which maps closely to the problem statement.
 
 ---
 
