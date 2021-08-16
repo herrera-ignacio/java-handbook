@@ -53,3 +53,4 @@
   * [43 Prefer method references to lambdas](43)
   * [44: Favor the use of standard functional interfaces](44)
   * [45: Use streams judiciously](45)
+  * [46: Prefer side-effect-free functions in streams](46)
