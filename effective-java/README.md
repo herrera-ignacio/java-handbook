@@ -56,4 +56,6 @@
   * [46: Prefer side-effect-free functions in streams](46)
   * [47: Prefer Collection to Stream as a return type](47)
   * [48: Use caution when making streams parallel](48)
+* [Methods](c7)
+  * [49: Check parameters for validity](49)
 
