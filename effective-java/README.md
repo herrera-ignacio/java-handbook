@@ -60,4 +60,5 @@
   * [49: Check parameters for validity](49)
   * [50: Make defensive copies when needed](50)
   * [51: Design method signatures carefully](51)
+  * [52: Use overloading judiciously](52)
 
