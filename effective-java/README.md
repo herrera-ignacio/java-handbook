@@ -65,3 +65,5 @@
   * [54: Return empty collections or arrays, not nulls](54)
   * [55: Return optionals judiciously](55)
   * [56: Write doc comments for all exposed API elements](56)
+* [General Programming](c8)
+  * [57: Minimize the scope of local variables](57)
