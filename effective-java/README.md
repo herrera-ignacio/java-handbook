@@ -64,3 +64,4 @@
   * [53: Use varargs judiciously](53)
   * [54: Return empty collections or arrays, not nulls](54)
   * [55: Return optionals judiciously](55)
+  * [56: Write doc comments for all exposed API elements](56)
