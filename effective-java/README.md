@@ -67,3 +67,4 @@
   * [56: Write doc comments for all exposed API elements](56)
 * [General Programming](c8)
   * [57: Minimize the scope of local variables](57)
+  * [58: Prefer for-each loops to traditional `for` loops](58)
