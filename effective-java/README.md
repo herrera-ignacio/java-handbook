@@ -80,3 +80,4 @@
   * [68: Adhere to generally accepted naming conventions](68)
 * [Exceptions](c9)
   * [69: Use exceptions only for exceptional conditions](69)
+  * [70: Use checked exceptions for recoverable conditions and runtime exceptions for programming errors](70)
