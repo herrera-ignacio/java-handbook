@@ -81,3 +81,4 @@
 * [Exceptions](c9)
   * [69: Use exceptions only for exceptional conditions](69)
   * [70: Use checked exceptions for recoverable conditions and runtime exceptions for programming errors](70)
+  * [71: Avoid unnecessary use of checked exceptions](71)
