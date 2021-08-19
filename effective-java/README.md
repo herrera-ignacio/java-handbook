@@ -84,3 +84,4 @@
   * [71: Avoid unnecessary use of checked exceptions](71)
   * [72: Favor the use of standard exceptions](72)
   * [73: Throw exceptions appropriate to the abstraction](73)
+  * [74: Document all exceptions thrown by each method](74)
