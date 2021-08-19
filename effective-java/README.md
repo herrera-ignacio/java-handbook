@@ -73,3 +73,4 @@
   * [61: Prefer primitive types to boxed primitives](61)
   * [62: Avoid strings where other types are more appropriate](62)
   * [63: Beware the performance of string concatenation](63)
+  * [64: Refer to objects by their interfaces](64)
