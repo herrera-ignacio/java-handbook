@@ -85,3 +85,4 @@
   * [72: Favor the use of standard exceptions](72)
   * [73: Throw exceptions appropriate to the abstraction](73)
   * [74: Document all exceptions thrown by each method](74)
+  * [75: Include failure-capture information in detail messages](75)
