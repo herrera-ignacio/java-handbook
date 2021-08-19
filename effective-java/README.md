@@ -72,3 +72,4 @@
   * [60: Avoid `float` and `double` if exact answers are required](60)
   * [61: Prefer primitive types to boxed primitives](61)
   * [62: Avoid strings where other types are more appropriate](62)
+  * [63: Beware the performance of string concatenation](63)
