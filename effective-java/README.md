@@ -92,3 +92,4 @@
   * [78: Synchronize access to shared mutable data](78)
   * [79: Avoid excessive synchronization](79)
   * [80: Prefer executors, tasks, and streams to threads](80)
+  * [81: Prefer concurrency utilities to `wait` and `notify`](81)
