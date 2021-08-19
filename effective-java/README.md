@@ -90,3 +90,4 @@
   * [77: Don't ignore exceptions](77)
 * [Concurrency](c10)
   * [78: Synchronize access to shared mutable data](78)
+  * [79: Avoid excessive synchronization](79)
