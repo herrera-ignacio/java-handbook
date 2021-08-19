@@ -78,3 +78,5 @@
   * [66: Use native methods judiciously](66)
   * [67: Optimize judiciously](67)
   * [68: Adhere to generally accepted naming conventions](68)
+* [Exceptions](c9)
+  
