@@ -75,3 +75,4 @@
   * [63: Beware the performance of string concatenation](63)
   * [64: Refer to objects by their interfaces](64)
   * [65: Prefer interfaces to reflection](65)
+  * [66: Use native methods judiciously](66)
