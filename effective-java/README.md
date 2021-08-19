@@ -69,3 +69,4 @@
   * [57: Minimize the scope of local variables](57)
   * [58: Prefer for-each loops to traditional `for` loops](58)
   * [59: Know and use the libraries](59)
+  * [60: Avoid `float` and `double` if exact answers are required](60)
