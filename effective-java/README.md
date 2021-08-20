@@ -99,3 +99,4 @@
 * [Serialization](c11)
   * [85: Prefer alternatives to Java serialization](85)
   * [86: Implement `Serializable` with great caution](86)
+  * [87: Consider using a custom serialized form](87)
