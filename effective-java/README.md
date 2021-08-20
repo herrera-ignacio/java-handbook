@@ -100,3 +100,4 @@
   * [85: Prefer alternatives to Java serialization](85)
   * [86: Implement `Serializable` with great caution](86)
   * [87: Consider using a custom serialized form](87)
+  * [88: Write `readObject` methods defensively](88)
