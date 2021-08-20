@@ -95,3 +95,4 @@
   * [81: Prefer concurrency utilities to `wait` and `notify`](81)
   * [82: Document thread safety](82)
   * [83: Use lazy initialization judiciously](83)
+  * [84: Don't depend on the thread scheduler](84)
