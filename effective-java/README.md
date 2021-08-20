@@ -94,3 +94,4 @@
   * [80: Prefer executors, tasks, and streams to threads](80)
   * [81: Prefer concurrency utilities to `wait` and `notify`](81)
   * [82: Document thread safety](82)
+  * [83: Use lazy initialization judiciously](83)
