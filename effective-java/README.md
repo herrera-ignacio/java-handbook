@@ -96,3 +96,5 @@
   * [82: Document thread safety](82)
   * [83: Use lazy initialization judiciously](83)
   * [84: Don't depend on the thread scheduler](84)
+* [Serialization](c11)
+  * [85: Prefer alternatives to Java serialization](../85)
