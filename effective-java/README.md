@@ -101,3 +101,4 @@
   * [86: Implement `Serializable` with great caution](86)
   * [87: Consider using a custom serialized form](87)
   * [88: Write `readObject` methods defensively](88)
+  * [89: For instance control, prefer enum types to `readResolve`](89)
