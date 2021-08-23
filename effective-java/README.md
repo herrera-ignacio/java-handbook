@@ -11,7 +11,7 @@
   * [6: Avoid creating unnecessary objects](6)
   * [7: Eliminate obsolete object references](7)
   * [8: Avoid finalizers and cleaners](8)
-  * [9: Prefer try-wioth-resources to try-finally](9)
+  * [9: Prefer try-with-resources to try-finally](9)
 * [Methods Common to All Objects](c2)
   * [10: Obey the general contract when overriding `equals`](10)
   * [11: Always override `hashCode` when you override `equals`](11)
